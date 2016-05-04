@@ -1,0 +1,28 @@
+{
+  "name": "@helpdotcom/is",
+  "version": "1.0.0",
+  "description": "isDate, isUUID, and isEmail for use with help-gen",
+  "main": "index.js",
+  "scripts": {
+    "lint": "lintit",
+    "pretest": "lintit",
+    "test": "tap test.js --cov"
+  },
+  "dependencies": {
+    "tldjs": "~1.6.2"
+  },
+  "devDependencies": {
+    "lintit": "~1.0.1",
+    "tap": "~5.7.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://git.help.com/common-backend/is"
+  },
+  "homepage": "https://git.help.com/common-backend/is",
+  "bugs": {
+    "url": "https://git.help.com/common-backend/is/issues"
+  }
+}
