@@ -4,14 +4,16 @@
   "description": "isDate, isUUID, and isEmail for use with help-gen",
   "main": "index.js",
   "scripts": {
+    "check": "check-pkg --verbose",
     "lint": "lintit",
-    "pretest": "lintit",
+    "pretest": "lintit && check-pkg --verbose",
     "test": "tap test.js --cov"
   },
   "dependencies": {
     "tldjs": "~1.6.2"
   },
   "devDependencies": {
+    "check-pkg": "~1.0.0",
     "lintit": "~1.0.1",
     "tap": "~5.7.0"
   },
