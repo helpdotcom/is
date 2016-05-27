@@ -7,13 +7,14 @@
     "check": "check-pkg",
     "lint": "lintit",
     "pretest": "lintit && check-pkg",
-    "test": "tap test.js --cov"
+    "test": "tap test.js --cov",
+    "release": "releaseit"
   },
   "dependencies": {
     "tldjs": "~1.6.2"
   },
   "devDependencies": {
-    "@helpdotcom/releaseit": "~2.0.1",
+    "@helpdotcom/releaseit": "~2.0.3",
     "check-pkg": "~2.0.1",
     "lintit": "~1.0.1",
     "tap": "~5.7.0"
