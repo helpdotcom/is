@@ -1,3 +1,10 @@
+# 2016-05-27, Version 1.0.2 (Stable)
+
+* [[c680c9549a](https://git.help.com/common-backend/is/commit/c680c9549a)] - ci: add release stage (Evan Lucas)
+* [[bd3fc7adb6](https://git.help.com/common-backend/is/commit/bd3fc7adb6)] - ci: use quay.io images (Evan Lucas) [CHAT-460](https://helpdotcom.atlassian.net/browse/CHAT-460)
+* [[5069c1ee5f](https://git.help.com/common-backend/is/commit/5069c1ee5f)] - deps: @helpdotcom/releaseit@2.0.1 (Evan Lucas)
+* [[31426861f4](https://git.help.com/common-backend/is/commit/31426861f4)] - deps: check-pkg@2.0.1 (Evan Lucas)
+
 # 2016-05-05, Version 1.0.1 (Stable)
 
 * [[ad30afd394](https://git.help.com/common-backend/is/commit/ad30afd394)] - ci: use node:5 image for test:node5 (Evan Lucas)
