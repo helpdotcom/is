@@ -36,6 +36,7 @@ release:
     - git config user.email "ops@help.com"
     - git config user.name "commit-bot"
     - git remote set-url --push origin "${CI_PUSH_REPO}"
+    - git checkout master
     - npm run release -- --publish
   only:
     - master
