@@ -1,3 +1,8 @@
+# 2016-05-28, Version 1.0.3 (Stable)
+
+* [[61daf98419](https://git.help.com/common-backend/is/commit/61daf98419)] - ci: add final fix for auto releases (Evan Lucas)
+* [[7fe1911af1](https://git.help.com/common-backend/is/commit/7fe1911af1)] - deps: @helpdotcom/releaseit@2.0.4 (Evan Lucas)
+
 # 2016-05-27, Version 1.0.2 (Stable)
 
 * [[c680c9549a](https://git.help.com/common-backend/is/commit/c680c9549a)] - ci: add release stage (Evan Lucas)
