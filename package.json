@@ -16,8 +16,8 @@
   "devDependencies": {
     "@helpdotcom/releaseit": "~2.0.5",
     "check-pkg": "~2.0.1",
-    "lintit": "~1.0.1",
     "tap": "~5.7.0"
+    "lintit": "~1.0.3",
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "Evan Lucas <evanlucas@me.com>",
