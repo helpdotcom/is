@@ -24,7 +24,7 @@ const is = require('@helpdotcom/is')
 
 ### isDate(d)
 
-* `d` [`<String>`][] ISO formatted date string
+* `d` [`<String>`][] | [`<Date>`][] ISO formatted date string
 
 Returns `true` if `d` is a valid ISO date string. Otherwise, returns `false`.
 
@@ -46,4 +46,5 @@ Returns `true` if `s` is a valid v4 UUID. Otherwise, returns `false`.
 Evan Lucas
 
 [`<String>`]: https://mdn.io/string
+[`<Date>`]: https://mdn.io/date
 [`help-gen`]: https://git.help.com/common-backend/help-gen

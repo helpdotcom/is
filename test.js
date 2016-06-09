@@ -7,9 +7,18 @@ test('isDate', (t) => {
   const is = helpIs.isDate
   const d = (new Date()).toISOString()
 
+  t.equal(is(null), false)
+  t.equal(is(false), false)
   t.equal(is('fadsfasdf'), false)
   t.equal(is(d), true)
   t.equal(is(new Date()), true)
+  t.equal(is({}), false)
+  t.equal(is({
+    toISOString() {
+      return {}
+    }
+  }), false)
+  t.equal(is(d.substring(0, d.length - 1)), false)
   t.end()
 })
 

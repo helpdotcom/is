@@ -4,14 +4,14 @@ const tld = require('tldjs')
 const emailRE = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
 const uuidRE = new RegExp('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]' +
   '{3}-[89ABab][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$')
+const dateRE = /^[\d]{4}\-[\d]{2}\-[\d]{2}T[\d]{2}:[\d]{2}:[\d]{2}\.[\d]{3}Z$/
 
 exports.isDate = function isDate(d) {
-  // TODO(evanlucas) We may want to make this only accept an ISO string.
-  // If we go that route (which I think we should) we could probably just
-  // move this to a regex.
-  let date = new Date(d)
-  let a = date.getTime()
-  return a === a
+  if (!d) return false
+  if (typeof d === 'object' && d.toISOString) {
+    return dateRE.test(d.toISOString())
+  }
+  return dateRE.test(d)
 }
 
 exports.isEmail = function isEmail(s) {
