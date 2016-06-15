@@ -1,3 +1,9 @@
+# 2016-06-15, Version 1.0.7 (Stable)
+
+* [[ad28b0d782](https://git.help.com/common-backend/is/commit/ad28b0d782)] - deps: tap@5.7.2 (Evan Lucas)
+* [[f22ba9003a](https://git.help.com/common-backend/is/commit/f22ba9003a)] - deps: lintit@1.0.3 (Evan Lucas)
+* [[a9c99a65ef](https://git.help.com/common-backend/is/commit/a9c99a65ef)] - index: fix isDate implementation (Evan Lucas)
+
 # 2016-05-28, Version 1.0.6 (Stable)
 
 * [[b427d66247](https://git.help.com/common-backend/is/commit/b427d66247)] - deps: @helpdotcom/releaseit@2.0.5 (Evan Lucas)
