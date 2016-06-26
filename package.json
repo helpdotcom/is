@@ -17,7 +17,7 @@
     "@helpdotcom/releaseit": "~2.0.5",
     "check-pkg": "~2.0.2",
     "lintit": "~1.0.3",
-    "tap": "~5.7.2"
+    "tap": "~5.7.3"
   },
   "license": "SEE LICENSE IN LICENSE",
   "author": "Evan Lucas <evanlucas@me.com>",
