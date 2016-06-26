@@ -1,3 +1,7 @@
+# 2016-06-26, Version 1.0.9 (Stable)
+
+* [[ab4baae898](https://git.help.com/common-backend/is/commit/ab4baae898)] - deps: tap@5.7.3 (Commit Bot)
+
 # 2016-06-26, Version 1.0.8 (Stable)
 
 * [[6d3cbc0253](https://git.help.com/common-backend/is/commit/6d3cbc0253)] - deps: check-pkg@2.0.2 (Commit Bot)
