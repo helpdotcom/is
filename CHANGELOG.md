@@ -1,3 +1,7 @@
+# 2017-01-27, Version 2.0.1 (Stable)
+
+* [[7e5402aa3b](https://git.help.com/common-backend/is/commit/7e5402aa3b)] - index: allow ms to be 1-3 digits (Evan Lucas)
+
 # 2017-01-27, Version 2.0.0 (Stable)
 
 * [[5901db8dda](https://git.help.com/common-backend/is/commit/5901db8dda)] - ci: switch from quay.io to gcr.io (Evan Lucas)
