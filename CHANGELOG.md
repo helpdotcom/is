@@ -1,3 +1,8 @@
+# 2017-01-27, Version 2.0.0 (Stable)
+
+* [[5901db8dda](https://git.help.com/common-backend/is/commit/5901db8dda)] - ci: switch from quay.io to gcr.io (Evan Lucas)
+* [[d75f856dc1](https://git.help.com/common-backend/is/commit/d75f856dc1)] - **(SEMVER-MAJOR)** index: support common JSON date string format (Evan Lucas)
+
 # 2016-06-26, Version 1.0.9 (Stable)
 
 * [[ab4baae898](https://git.help.com/common-backend/is/commit/ab4baae898)] - deps: tap@5.7.3 (Commit Bot)
