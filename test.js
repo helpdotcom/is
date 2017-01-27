@@ -19,6 +19,10 @@ test('isDate', (t) => {
     }
   }), false)
   t.equal(is(d.substring(0, d.length - 1)), false)
+  const a1 = '2017-01-27T16:19:34.798+00:00'
+  const a2 = '2017-01-27T16:19:34.798Z'
+  t.equal(is(a1), true)
+  t.equal(is(a2), true)
   t.end()
 })
 
