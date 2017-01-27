@@ -5,7 +5,7 @@ const emailRE = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
 const uuidRE = new RegExp('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]' +
   '{3}-[89ABab][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$')
 const dateRE = new RegExp('^[\\d]{4}-[\\d]{2}-[\\d]{2}T[\\d]{2}:[\\d]{2}:' +
-  '[\\d]{2}.[\\d]{3}(Z|[\\+\\-][\\d]{2}:[\\d]{2})$')
+  '[\\d]{2}.[\\d]{1,3}(Z|[\\+\\-][\\d]{2}:[\\d]{2})$')
 
 exports.isDate = function isDate(d) {
   if (!d) return false
