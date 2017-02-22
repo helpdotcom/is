@@ -23,10 +23,12 @@ test('isDate', (t) => {
   const a2 = '2017-01-27T16:19:34.798Z'
   const a3 = '2017-01-27T16:19:34.79+00:00'
   const a4 = '2017-01-27T16:19:34.7+00:00'
+  const a5 = '2017-02-22T14:50:20+00:00'
   t.equal(is(a1), true)
   t.equal(is(a2), true)
   t.equal(is(a3), true)
   t.equal(is(a4), true)
+  t.equal(is(a5), true)
   t.end()
 })
 
