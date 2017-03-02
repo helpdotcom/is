@@ -40,6 +40,16 @@ test('isEmail', (t) => {
   t.end()
 })
 
+test('isEmailAllowName', (t) => {
+  const is = helpIs.isEmailAllowName
+  t.equal(is(null), false)
+  t.equal(is('evan@me.com'), true)
+  t.equal(is('Evan <evan@me.com>'), true)
+  t.equal(is('"Evan" <evan@me.com>'), true)
+  t.equal(is('Evan <evan@me.com'), false)
+  t.end()
+})
+
 test('isUUID', (t) => {
   const is = helpIs.isUUID
   t.equal(is('713ae7e3-cb32-45f9-adcb-7c4fa86b90c1'), true)

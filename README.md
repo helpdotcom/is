@@ -34,6 +34,19 @@ Returns `true` if `d` is a valid ISO date string. Otherwise, returns `false`.
 
 Returns `true` if `s` is a valid email address. Otherwise, returns `false`.
 
+### isEmailAllowName(s)
+
+* `s` [`<String>`][] The email string
+
+Returns `true` if `s` is a valid email address with an optional name.
+Otherwise, returns `false`.
+
+The following formats are supported:
+
+* `evan.lucas@help.com`
+* `Evan Lucas <evan.lucas@help.com>`
+* `"Evan Lucas" <evan.lucas@help.com>`
+
 ### isUUID(s)
 
 * `s` [`<String>`][] The uuid to test.
