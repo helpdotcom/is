@@ -1,3 +1,7 @@
+# 2017-03-02, Version 2.1.0 (Stable)
+
+* [[1451e498b3](https://git.help.com/common-backend/is/commit/1451e498b3)] - **(SEMVER-MINOR)** is: add isEmailAllowName() (Evan Lucas) [CHAT-2199](https://helpdotcom.atlassian.net/browse/CHAT-2199)
+
 # 2017-02-22, Version 2.0.2 (Stable)
 
 * [[5ab1580bcf](https://git.help.com/common-backend/is/commit/5ab1580bcf)] - index: allow an additional format in isDate() (Evan Lucas)
