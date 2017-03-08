@@ -1,3 +1,7 @@
+# 2017-03-08, Version 2.1.1 (Stable)
+
+* [[8819f740af](https://git.help.com/common-backend/is/commit/8819f740af)] - isEmailAllowName: update Regex to allow/check space in name (Ryan Tallmadge)
+
 # 2017-03-02, Version 2.1.0 (Stable)
 
 * [[1451e498b3](https://git.help.com/common-backend/is/commit/1451e498b3)] - **(SEMVER-MINOR)** is: add isEmailAllowName() (Evan Lucas) [CHAT-2199](https://helpdotcom.atlassian.net/browse/CHAT-2199)
