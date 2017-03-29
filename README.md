@@ -46,6 +46,9 @@ The following formats are supported:
 * `evan.lucas@help.com`
 * `Evan Lucas <evan.lucas@help.com>`
 * `"Evan Lucas" <evan.lucas@help.com>`
+* `"Help.com, LLC" <info@help.com>`
+* `Help.com, LLC <info@help.com>`
+* `Jane Doe (maiden name) <jane@doe.com>`
 
 ### isUUID(s)
 
