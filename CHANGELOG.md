@@ -1,3 +1,8 @@
+# 2017-03-29, Version 2.1.2 (Stable)
+
+* [[e0e46e0dd0](https://git.help.com/common-backend/is/commit/e0e46e0dd0)] - isEmailAllowName: Remove redundant regex part (Darin Spivey)
+* [[369db6aca1](https://git.help.com/common-backend/is/commit/369db6aca1)] - isEmailAllowName: allow commas and parens in the name portion (Darin Spivey) [CHAT-2410](https://helpdotcom.atlassian.net/browse/CHAT-2410)
+
 # 2017-03-08, Version 2.1.1 (Stable)
 
 * [[8819f740af](https://git.help.com/common-backend/is/commit/8819f740af)] - isEmailAllowName: update Regex to allow/check space in name (Ryan Tallmadge)
