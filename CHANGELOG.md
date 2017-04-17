@@ -1,3 +1,7 @@
+# 2017-04-17, Version 2.1.3 (Stable)
+
+* [[a6f7d2b895](https://git.help.com/common-backend/is/commit/a6f7d2b895)] - index: allow name part to be blank in isEmailAllowName() (Evan Lucas)
+
 # 2017-03-29, Version 2.1.2 (Stable)
 
 * [[e0e46e0dd0](https://git.help.com/common-backend/is/commit/e0e46e0dd0)] - isEmailAllowName: Remove redundant regex part (Darin Spivey)
