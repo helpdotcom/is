@@ -4,7 +4,7 @@ const tld = require('tldjs')
 const emailRE = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
 const EMAIL_NAME_RE = new RegExp(
   '^[a-z \\d!#\\$%&\'\\*\\+\\-\\/=\\?\\^_"`{\\|\\,\\(\\)'
-  + '}~\\.\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]+'
+  + '}~\\.\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]*'
   + '<(.+)>$', 'i'
 )
 const uuidRE = new RegExp('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]' +

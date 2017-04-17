@@ -54,6 +54,8 @@ test('isEmailAllowName', (t) => {
   t.equal(is('"Help.com, LLC" <info@help.com>'), true)
   t.equal(is('"Jane Doe (maiden name)" <jane@doe.com>'), true)
   t.equal(is('Jane Doe (maiden name) <jane@doe.com>'), true)
+  t.equal(is(' <esatterwhite@wi.rr.com>'), true)
+  t.equal(is('<esatterwhite@wi.rr.com>'), true)
   t.end()
 })
 
