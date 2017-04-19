@@ -1,3 +1,7 @@
+# 2017-04-19, Version 2.2.0 (Stable)
+
+* [[1f92c5ffa3](https://git.help.com/common-backend/is/commit/1f92c5ffa3)] - **(SEMVER-MINOR)** index: add isUrl() (Stephen Belanger)
+
 # 2017-04-19, Version 2.1.4 (Stable)
 
 * [[52156018a0](https://git.help.com/common-backend/is/commit/52156018a0)] - index: optimize isEmail for early escape (Stephen Belanger)
