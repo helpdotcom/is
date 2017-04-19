@@ -1,3 +1,7 @@
+# 2017-04-19, Version 2.1.4 (Stable)
+
+* [[52156018a0](https://git.help.com/common-backend/is/commit/52156018a0)] - index: optimize isEmail for early escape (Stephen Belanger)
+
 # 2017-04-17, Version 2.1.3 (Stable)
 
 * [[a6f7d2b895](https://git.help.com/common-backend/is/commit/a6f7d2b895)] - index: allow name part to be blank in isEmailAllowName() (Evan Lucas)
