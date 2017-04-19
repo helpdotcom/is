@@ -21,7 +21,9 @@ exports.isDate = function isDate(d) {
 }
 
 exports.isEmail = function isEmail(s) {
-  return tld.tldExists(s) && emailRE.test(s) && s.length < 255
+  if (typeof s !== 'string') return false
+  if (s.length >= 255) return false
+  return tld.tldExists(s) && emailRE.test(s)
 }
 
 exports.isEmailAllowName = function isEmailAllowName(s) {
