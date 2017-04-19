@@ -70,3 +70,22 @@ test('isUUID', (t) => {
   t.equal(is(1234), false)
   t.end()
 })
+
+test('isUrl', (t) => {
+  const is = helpIs.isUrl
+  t.equal(is('http://foo.bar'), true)
+  t.equal(is('https://foo.bar/baz'), true)
+  t.equal(is('http://foo.bar.baz/buz'), true)
+  t.equal(is('http://foo.bar.baz.buz/bux'), true)
+  t.equal(is('http://foo.bar/baz?buz'), true)
+  t.equal(is('http://foo.bar/baz#buz'), true)
+  t.equal(is('http://foo.bar?baz#buz'), true)
+  t.equal(is('http://foo.bar/baz-buz+bux_bax.bex'), true)
+  t.equal(is('http://123.456.789.12/'), true)
+  t.equal(is('http://2001:0db8:85a3:0000:0000:8a2e:0370:7334/'), true)
+  t.equal(is('internal http://urls.are not allowed'), false)
+  t.equal(is('invalid://url'), false)
+  t.equal(is('not a url'), false)
+  t.equal(is(1234), false)
+  t.end()
+})

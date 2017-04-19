@@ -56,6 +56,12 @@ The following formats are supported:
 
 Returns `true` if `s` is a valid v4 UUID. Otherwise, returns `false`.
 
+### isUrl(s)
+
+* `s` [`<String>`][] The url to test.
+
+Returns `true` if `s` is a valid URL. Otherwise, returns `false`.
+
 
 ## Author
 
