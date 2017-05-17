@@ -62,6 +62,12 @@ Returns `true` if `s` is a valid v4 UUID. Otherwise, returns `false`.
 
 Returns `true` if `s` is a valid URL. Otherwise, returns `false`.
 
+### isIp(s)
+
+* `s` [`<String>`][] The url to test.
+
+Returns `true` if `s` is a valid ip. Otherwise, returns `false`.
+
 
 ## Author
 

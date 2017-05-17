@@ -89,3 +89,20 @@ test('isUrl', (t) => {
   t.equal(is(1234), false)
   t.end()
 })
+
+test('isIp', (t) => {
+  const is = helpIs.isIp
+  t.equal(is('172.0.0.1'), true)
+  t.equal(is('0.0.0.0'), true)
+  t.equal(is('2001:0db8:85a3:0000:0000:8a2e:0370:7334'), true)
+  t.equal(is('192.168.100.0/22'), true)
+  t.equal(is('172.255.255.255'), true)
+  t.equal(is('10.0.0.0'), true)
+  t.equal(is('173.a.0.0'), false)
+  t.equal(is('204.0.113.4255'), false)
+  t.equal(is('hellohello'), false)
+  t.equal(is('   '), false)
+  t.equal(is('SELECT\0x33:~;_-\\\\'), false)
+  t.equal(is(1234), false)
+  t.end()
+})

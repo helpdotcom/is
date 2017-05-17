@@ -2,6 +2,8 @@
 
 const url = require('url')
 const tld = require('tldjs')
+const net = require('net')
+const ipAddress = require('ip-address')
 const emailRE = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
 const EMAIL_NAME_RE = new RegExp(
   '^[a-z \\d!#\\$%&\'\\*\\+\\-\\/=\\?\\^_"`{\\|\\,\\(\\)'
@@ -54,4 +56,13 @@ exports.isUrl = function isUrl(s) {
   if (typeof s !== 'string') return false
   const u = url.parse(s)
   return protocols.has(u.protocol) && !!u.host && !!u.path
+}
+
+exports.isIp = function isIp(s) {
+  if (typeof s !== 'string') return false
+  if (net.isIP(s) !== 0) return true
+  const IpAddressType = s.indexOf(':') > -1
+    ? ipAddress.Address6 : ipAddress.Address4
+  const address = new IpAddressType(s)
+  return address.isValid()
 }

@@ -11,6 +11,7 @@
     "release": "releaseit"
   },
   "dependencies": {
+    "ip-address": "~5.8.8",
     "tldjs": "~1.6.2"
   },
   "devDependencies": {
