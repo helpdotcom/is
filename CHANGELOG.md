@@ -1,3 +1,7 @@
+# 2017-05-17, Version 2.2.1 (Stable)
+
+* [[977aec635a](https://git.help.com/common-backend/is/commit/977aec635a)] - index: add isIp() (Christy Leung) [CHAT-2328](https://helpdotcom.atlassian.net/browse/CHAT-2328)
+
 # 2017-04-19, Version 2.2.0 (Stable)
 
 * [[1f92c5ffa3](https://git.help.com/common-backend/is/commit/1f92c5ffa3)] - **(SEMVER-MINOR)** index: add isUrl() (Stephen Belanger)
