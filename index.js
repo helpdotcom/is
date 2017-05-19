@@ -2,7 +2,6 @@
 
 const url = require('url')
 const tld = require('tldjs')
-const net = require('net')
 const ipAddress = require('ip-address')
 const emailRE = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[A-Za-z]{2,}$/
 const EMAIL_NAME_RE = new RegExp(
@@ -10,6 +9,7 @@ const EMAIL_NAME_RE = new RegExp(
   + '}~\\.\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]*'
   + '<(.+)>$', 'i'
 )
+
 const uuidRE = new RegExp('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]' +
   '{3}-[89ABab][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$')
 const dateRE = new RegExp('^[\\d]{4}-[\\d]{2}-[\\d]{2}T[\\d]{2}:[\\d]{2}:' +
@@ -58,11 +58,11 @@ exports.isUrl = function isUrl(s) {
   return protocols.has(u.protocol) && !!u.host && !!u.path
 }
 
-exports.isIp = function isIp(s) {
+exports.isIpAllowCIDR = function isIpAllowCIDR(s) {
   if (typeof s !== 'string') return false
-  if (net.isIP(s) !== 0) return true
   const IpAddressType = s.indexOf(':') > -1
     ? ipAddress.Address6 : ipAddress.Address4
   const address = new IpAddressType(s)
+
   return address.isValid()
 }
