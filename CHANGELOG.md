@@ -1,3 +1,7 @@
+# 2017-05-23, Version 3.0.0 (Stable)
+
+* [[34ce49f5c8](https://git.help.com/common-backend/is/commit/34ce49f5c8)] - **(SEMVER-MAJOR)** index: added isIpAllowCIDR() (Christy Leung) [CHAT-2328](https://helpdotcom.atlassian.net/browse/CHAT-2328)
+
 # 2017-05-17, Version 2.2.1 (Stable)
 
 * [[977aec635a](https://git.help.com/common-backend/is/commit/977aec635a)] - index: add isIp() (Christy Leung) [CHAT-2328](https://helpdotcom.atlassian.net/browse/CHAT-2328)
