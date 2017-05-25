@@ -1,3 +1,7 @@
+# 2017-05-25, Version 3.0.1 (Stable)
+
+* [[086ec52751](https://git.help.com/common-backend/is/commit/086ec52751)] - index: isEmailName() should allow '@' in the name part (Dave Koston)
+
 # 2017-05-23, Version 3.0.0 (Stable)
 
 * [[34ce49f5c8](https://git.help.com/common-backend/is/commit/34ce49f5c8)] - **(SEMVER-MAJOR)** index: added isIpAllowCIDR() (Christy Leung) [CHAT-2328](https://helpdotcom.atlassian.net/browse/CHAT-2328)
