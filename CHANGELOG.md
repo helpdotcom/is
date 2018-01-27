@@ -1,3 +1,7 @@
+# 2018-01-27, Version 3.0.2 (Stable)
+
+* [[ad2008d36f](https://git.help.com/common-backend/is/commit/ad2008d36f)] - isEmail: wrap validation in try/catch (Justin Griffith)
+
 # 2017-05-25, Version 3.0.1 (Stable)
 
 * [[086ec52751](https://git.help.com/common-backend/is/commit/086ec52751)] - index: isEmailName() should allow '@' in the name part (Dave Koston)
