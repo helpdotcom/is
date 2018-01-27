@@ -29,9 +29,15 @@ exports.isDate = function isDate(d) {
 }
 
 exports.isEmail = function isEmail(s) {
-  if (typeof s !== 'string') return false
-  if (s.length >= 255) return false
-  return tld.tldExists(s) && emailRE.test(s)
+  try {
+    if (typeof s !== 'string') return false
+    if (s.length >= 255) return false
+    const isEmail = tld.tldExists(s) && emailRE.test(s)
+
+    return isEmail
+  } catch (err) {
+    return false
+  }
 }
 
 exports.isEmailAllowName = function isEmailAllowName(s) {
