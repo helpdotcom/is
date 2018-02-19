@@ -1,3 +1,8 @@
+# 2018-02-19, Version 3.0.3 (Stable)
+
+* [[e4fb45d034](https://git.help.com/common-backend/is/commit/e4fb45d034)] - ci: build on node 8 instead of node 7 (Evan Lucas)
+* [[e559e488a7](https://git.help.com/common-backend/is/commit/e559e488a7)] - deps: remove @helpdotcom/releaseit (Evan Lucas)
+
 # 2018-01-27, Version 3.0.2 (Stable)
 
 * [[ad2008d36f](https://git.help.com/common-backend/is/commit/ad2008d36f)] - isEmail: wrap validation in try/catch (Justin Griffith)
