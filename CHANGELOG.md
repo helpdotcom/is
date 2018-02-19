@@ -1,3 +1,7 @@
+# 2018-02-19, Version 3.0.4 (Stable)
+
+* [[31ac65db2c](https://git.help.com/common-backend/is/commit/31ac65db2c)] - package: use MIT license (Evan Lucas)
+
 # 2018-02-19, Version 3.0.3 (Stable)
 
 * [[e4fb45d034](https://git.help.com/common-backend/is/commit/e4fb45d034)] - ci: build on node 8 instead of node 7 (Evan Lucas)

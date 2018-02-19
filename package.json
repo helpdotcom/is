@@ -1,6 +1,6 @@
 {
   "name": "@helpdotcom/is",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "isDate, isUUID, and isEmail for use with help-gen",
   "main": "index.js",
   "scripts": {
