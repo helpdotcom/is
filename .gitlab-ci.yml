@@ -13,14 +13,14 @@ test:node6:
   script:
     - npm test
 
-test:node7:
-  image: gcr.io/help-1272/node:7
+test:node8:
+  image: gcr.io/help-1272/node:8
   stage: test
   script:
     - npm test
 
 release:
-  image: gcr.io/help-1272/node:release
+  image: gcr.io/help-1272/node:release8
   stage: release
   script:
     - do-release --publish
