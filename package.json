@@ -7,15 +7,13 @@
     "check": "check-pkg",
     "lint": "lintit",
     "pretest": "lintit && check-pkg",
-    "test": "tap test.js --cov",
-    "release": "releaseit"
+    "test": "tap test.js --cov"
   },
   "dependencies": {
     "ip-address": "~5.8.8",
     "tldjs": "~1.6.2"
   },
   "devDependencies": {
-    "@helpdotcom/releaseit": "~2.0.5",
     "check-pkg": "~2.0.2",
     "lintit": "~1.0.3",
     "tap": "~5.7.3"
