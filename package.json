@@ -18,7 +18,7 @@
     "lintit": "~1.0.3",
     "tap": "~5.7.3"
   },
-  "license": "SEE LICENSE IN LICENSE",
+  "license": "MIT",
   "author": "Evan Lucas <evanlucas@me.com>",
   "repository": {
     "type": "git",

@@ -73,6 +73,10 @@ Returns `true` if `s` is a valid ip with CIDR notation. Otherwise, returns `fals
 
 Evan Lucas
 
+## License
+
+MIT (See `LICENSE` for more info)
+
 [`<String>`]: https://mdn.io/string
 [`<Date>`]: https://mdn.io/date
 [`help-gen`]: https://git.help.com/common-backend/help-gen
